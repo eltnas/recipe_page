@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-size: 16px;
+  background-image: linear-gradient(to bottom, rgba(123, 40, 79, 0.3), hsl(30deg, 54%, 90%));
+  font-family: "Outfit", sans-serif;
+}
+
+.box-list {
+  margin: 0 1.5rem;
+  font-size: 1.1em;
+}
+
+.mt01 {
+  margin-top: 1rem;
+}
+
+.bb01 {
+  border-bottom: 1px solid rgba(48, 45, 44, 0.2);
+}
+
+.font-young {
+  font-family: "Young Serif", serif;
+}
+
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 750px;
+  min-width: 550px;
+  margin: 100px auto;
+  padding: 40px;
+  background: hsl(0deg, 0%, 100%);
+  border-radius: 20px;
+}
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+.container .content .recipe_img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.container .content .recipe_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.container .content #text_title {
+  margin: 25px 0;
+  color: hsl(24deg, 5%, 18%);
+  font-size: 2.5em;
+}
+.container .content .normal_text {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+.container .content .square-pink {
+  width: 100%;
+  height: 200px;
+  background-color: hsl(330deg, 100%, 98%);
+  padding: 30px;
+}
+.container .content .square-pink h3 {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+  color: rgba(123, 40, 79, 0.9);
+}
+.container .content .square-pink #square-list {
+  width: 100%;
+  margin-left: 25px;
+}
+.container .content .square-pink #square-list ul li {
+  color: hsl(332deg, 51%, 32%);
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.container .content .normal-title {
+  margin: 2rem 0 1rem 0;
+  font-size: 2em;
+  color: hsl(14deg, 45%, 36%);
+}
+.container .content .table-nutrition {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container .content .table-nutrition .table-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .content .table-nutrition .table-row .table-cell-1 {
+  width: 50%;
+  padding: 5px 40px;
+}
+.container .content .table-nutrition .table-row .table-cell-1 p {
+  font-size: 1.5em;
+  color: rgba(48, 45, 44, 0.8);
+}
+.container .content .table-nutrition .table-row .table-cell-2 {
+  width: 50%;
+}
+.container .content .table-nutrition .table-row .table-cell-2 p {
+  font-size: 1.5em;
+  color: #854632;
+}
+
+.list {
+  color: hsl(332deg, 51%, 32%);
+  font-size: 1.2em;
+}
+
+.font-bold {
+  color: hsl(24deg, 5%, 18%);
+  font-weight: bold;
+}
+
+.font-normal {
+  color: hsl(24deg, 5%, 18%);
+}
+
+/*# sourceMappingURL=style.css.map */
